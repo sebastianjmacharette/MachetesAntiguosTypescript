@@ -1,0 +1,15 @@
+{
+  "name": "primer-codigo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:types": "tsc basic/types.ts --outDir dist/ && node dist/types.js",
+    "start:enums": "tsc basic/enums.ts --outDir dist/ && node dist/enums.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
