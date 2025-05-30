@@ -44,3 +44,4 @@ messageUpercase.toUpperCase(); // convertir a mayúsculas
 //por ejemplo, al seleccionar un elemento del DOM
 let elemento = document.getElementById("miElemento");// puede ser canvas o null
 let elementoCasteado = <HTMLCanvasElement>document.getElementById("miElemento"); // ya le decimos quees camvas
+let elementoCasteado2 = document.getElementById("miElemento") as HTMLCanvasElement; // otra forma de hacer el casteo

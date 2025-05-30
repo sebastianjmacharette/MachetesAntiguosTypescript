@@ -5,6 +5,10 @@
   "scripts": {
     "start:types": "tsc basic/types.ts --outDir dist/ && node dist/types.js",
     "start:enums": "tsc basic/enums.ts --outDir dist/ && node dist/enums.js",
+    "start:interfaces": "tsc basic/interfaces.ts --outDir dist/ && node dist/interfaces.js",
+    "start:customTypes": "tsc basic/customTypes.ts --outDir dist/ && node dist/customTypes.js",
+    "start:interfacesVsCustomTypes": "tsc basic/interfacesVsCustomTypes.ts --outDir dist/ && node dist/interfacesVsCustomTypes.js",
+    "start:clases": "tsc basic/clases.ts --outDir dist/ && node dist/clases.js",
 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
